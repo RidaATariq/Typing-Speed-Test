@@ -75,8 +75,6 @@ function reset() {
   document.querySelector(".result").innerHTML = "";
 }
 
-
-
 // Event listeners for keyboard input and the reset
 testArea.addEventListener("keypress", start, false);
 testArea.addEventListener("keyup", spellCheck, false);
